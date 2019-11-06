@@ -1,0 +1,70 @@
+body {
+    background: url(../img/imagem-fundo-principal.jpg);
+    background-size: 100%;
+}
+
+.barramenu {
+    filter: opacity(0.5);
+}
+
+.barramenu ul li {
+    background: black;
+    color: white;
+    float: left;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    filter: opacity(1);
+    /*width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    filter: opacity(1);
+    text-decoration: none;
+    text-decoration: underline;*/
+}
+
+.barramenu ul li:hover {
+    background: #9ea4ad;
+}
+
+
+/*
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+*/
+
+.opcoes {}
+
+.fundo-texto {
+    display: display;
+    /*background: url(../img/imagem-fundo-textoprincipal.jpg);*/
+    background-size: 100%;
+    font-size: 50px;
+    float: right;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    margin: 70px 175px 70px 70px;
+    /*-webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);*/
+    border-block-end: 7px;
+}
+
+div.textoInicial {
+    display: block;
+    color: white;
+    float: right;
+    height: 500px;
+    width: 500px;
+    justify-content: flex-start;
+}
